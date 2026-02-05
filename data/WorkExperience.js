@@ -1,5 +1,22 @@
 export const WorkExperience = [
   {
+    company: "Swiggy",
+    role: "Backend Developer",
+    description: [
+      "Architecting vendor management platform from scratch, engineering taxonomy with SKU stratification and multi-tier categories (L1-L4), orchestrating relational schemas across DynamoDB and MySQL for vendor-service associations.",
+      "Crafted RESTful APIs in Go for vendor dashboard and augmented supervisor console with 3 features: undo/redo for pending customer actions, mark-as-dispatched tracking, and recommendation propagation.",
+    ],
+    techStack: [
+      "Go",
+      "DynamoDB",
+      "MySQL",
+      "REST APIs",
+      "Microservices",
+    ],
+    time: "Current", // or your actual dates like "Oct 2025 – Present"
+    location: "Remote", // or your actual location
+  },
+  {
     company: "Hike (Airtel Subsidiary)",
     role: "Backend Developer Intern",
     discription: [
